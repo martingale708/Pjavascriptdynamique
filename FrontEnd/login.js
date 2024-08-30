@@ -20,9 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       if (response.ok) {
-        const data = await response.json();
-        // console.log(data);
-        
+        const data = await response.json();a
         //recuperation de userId et le token
         localStorage.setItem("token", data.token);
         localStorage.setItem("userId", data.userId);

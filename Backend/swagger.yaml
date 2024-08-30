@@ -181,4 +181,4 @@ securityDefinitions:
   Bearer:
     type: JWT
     name: Authorization
-    in: header
+    in: headers
